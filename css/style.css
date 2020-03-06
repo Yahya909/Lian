@@ -1,0 +1,21 @@
+
+
+.nav-item{
+	display: inline-block;
+	float: right;
+	color: gray;
+	margin-right: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px; 
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-right: 4px;
+	list-style: none;
+}
+.logo{
+	width: 128px;
+	height: 40px;
+	float: left;
+	margin-left:5px;
+}
