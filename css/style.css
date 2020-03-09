@@ -1,21 +1,38 @@
-
-
-.nav-item{
-	display: inline-block;
-	float: right;
-	color: gray;
-	margin-right: 5px;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 15px; 
-	margin-top: auto;
-	margin-bottom: auto;
-	padding-right: 4px;
-	list-style: none;
-}
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 .logo{
-	width: 128px;
-	height: 40px;
-	float: left;
-	margin-left:5px;
+	margin-right: 570px;
+}
+.gallery-list li{
+	display: inline-block;
+	color: gray;
+	padding-right: 20px;
+	font-weight: bold;
+}
+.gallery-list li:hover{
+	color: black
+}
+.gallery-list{
+	text-align: center;
+}
+.nav-link{
+	color: gray;
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+.nav-link:hover{
+	color:black;
+}	
+.row{
+	text-align: center;
+}
+.page-footer{
+	background-color: #dcdcdc;	
+}
+.navbar-brand{
+	margin-bottom: 20px; 
+
+}
+.flex-center i{
+	margin-right: 50px;
+	color: gray;
 }
